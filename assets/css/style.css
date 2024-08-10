@@ -53,7 +53,11 @@ ul li, span{
 	
 	padding-top:50px;
 	margin-left:80%
-}	  
+}	 
+
+.navbar a{
+	color:#506a85;
+} 
 
 .navbarOne li a{
 	color:#506a85;
@@ -72,11 +76,12 @@ ul li, span{
 	position:absolute;
 	left:0px;
 	padding-top:5px;
-	transition:all 0.7s linear;
+	transition:all 0.5s linear;
 	background-color:#506a85;
-	height:3px;
+	height:-10px;
 	width:0%;
-	bottom:20px;
+	bottom:40px;
+
 
 	
 }
@@ -84,17 +89,37 @@ ul li, span{
 .navbarOne ul li a:hover::after{
 
 	width:100%;
-	color:#506a85;
-	padding-top;5px;
+	color:red;
+	padding-top:5px;
+	
+
+
+
+  
+	
 }
 
 a:hover:active{
 	
-color:#1bed2c;
+color:blue;
+transform: scale(1.1);
+
+
 	
 }
 
 
+.box{
+	width:125px;
+	height:85px;
+	background-color:#00bb9b;
+}
+
+.headingfour{
+	
+	padding-left:15px;
+	padding-top:5px;
+}
 
 
 
